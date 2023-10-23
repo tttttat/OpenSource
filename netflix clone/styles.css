@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  ;
+}
+
+body {
+  background-color: #000;
+
+}
+
+.hero-section {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)), url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  height: 110px;
+  padding-left: 20px;
+}
+
+.navbar {
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.btn-outline-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.outline-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  background: none;
+  font-weight: 400;
+  padding: 7px 10px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.drop-down-language {
+  margin: 0 5px;
+}
+
+.btn-filled-container {
+  margin: 0 20px;
+}
+
+.btn-filled {
+  font-size: 1rem;
+  background-color: #e50914;
+  border: none;
+  padding: 7px 10px;
+  font-weight: 400;
+  color: #fff;
+  border-radius: 7%;
+}
+
+.text-element {
+  max-width: 640px;
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.text-element h1 .text-element h2 {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.text-element h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.line-1 {
+  margin: auto;
+  font-size: 3.75rem;
+}
+
+.line-2 {
+  margin: 1rem auto;
+  font-weight: 400;
+}
+
+.line-3 {
+  margin: 20px auto;
+  padding: 10px auto;
+}
+
+.centre-elements {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.form-btn-container {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.email-input {
+  width: 100%;
+  margin: 0;
+  padding-left: 10px;
+  font-size: 16px;
+  color: gray;
+  height: 60px;
+}
+
+.email-input-div {
+  width: 70%;
+  border: none;
+}
+
+.email-btn-div {
+  background-color: #e50914;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 30%;
+}
+
+.email-btn-div>p {
+  color: #fff;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.line-gray {
+  height: 7px;
+  width: 100%;
+  background-color: rgba(73, 69, 69, 0.4);
+}
+
+.content-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.text-content-container {
+  max-width: 550px;
+  font-family: sans-serif;
+
+}
+
+.heading-text-container {
+
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.discription-container h3 {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.image-content {
+  height: 400px;
+}
+.faq-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading-of-faq-div{
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 50px auto;
+  padding-top: 10px;
+
+}
+.frequent-questions-div{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.faq-q-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 20px 27px;
+  background-color: #303030;
+  margin-bottom: 7px;
+  text-align: left;
+  
+}
+.faq-q-div h3{
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 400;
+  
+
+}
+.plus-icon{
+ font-size: 30px;
+}
+.bottom-input-div{
+  
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.input-email-container{
+  width: 700px;
+  text-align: center;
+}
+.input-email-container>h3{
+  
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+
+}
+.right-arrow-container{
+  font-size: 20px;
+}
+.right-arrow-container{
+  color: #fff;
+  font-size: 25px;
+  margin-left: 5px;
+}
